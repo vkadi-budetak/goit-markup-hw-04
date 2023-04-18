@@ -384,6 +384,7 @@ footer .logo {
 
 /* Customers icons */
 .customers-tittle {
+  color: var(--fons-txt-cl);
 }
 
 .customers-link {
@@ -394,19 +395,19 @@ footer .logo {
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+  color: var(--fons-txt-cl);
 }
+
 .customers-link:hover,
 .customers-link:focus {
-  border-color: 1px solid #404bbf;
+  color: var(--accent-txt-cl);
+  border-color: var(--accent-txt-cl);
 }
 
 .customers-icon {
-  fill: var(--fons-txt-cl);
+  fill: currentColor;
 }
-.customers-icon:hover,
-.customers-icon:focus {
-  fill: #404bbf;
-}
+
 
 /* Footer */
 .footer-logo {
